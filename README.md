@@ -13,9 +13,13 @@ An animated particle network simulation where floating particles connect with li
 Adjust these variables in the code to customize the output:
 
 num — number of particles (default: 150)
+
 d < 75 — connection distance threshold (default: 75px)
+
 random(-1, 1) — particle speed range (default: -1 to 1)
+
 ellipse(..., 5, 5) — particle size (default: 5px)
+
 fill(0, 0, 255) — particle and line color (default: blue)
 
 # Saving Frames
