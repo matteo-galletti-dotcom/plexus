@@ -3,6 +3,9 @@
 Particle Plexus
 An animated particle network simulation where floating particles connect with lines when in proximity.
 
+<img width="2160" height="2160" alt="plexus_001" src="https://github.com/user-attachments/assets/4528079e-6710-46e1-a949-e3aede92a1a6" />
+
+
 # How it Works
 150 particles are spawned at random positions and drift across a 1080×1080 canvas with random velocities. Each frame, every particle checks its distance to every other particle — if two particles are within 75 pixels of each other, a blue line is drawn between them. Particles wrap around the edges of the canvas so they never disappear.
 
